@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 255, 255, 0.2);
+  width: 90%;
+  max-width: 400px;
+  transition: all 0.3s ease-in-out;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #00ffc8;
+  text-shadow: 0 0 8px #00ffc8;
+}
+
+.instruction {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+input {
+  padding: 12px;
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  outline: none;
+  text-align: center;
+  background: #fff;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  margin: 10px 5px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background: #00ffc8;
+  color: #000;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #00ccaa;
+}
+
+.message {
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.score {
+  font-size: 20px;
+  margin-top: 10px;
+}
